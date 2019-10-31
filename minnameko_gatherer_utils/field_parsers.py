@@ -4,6 +4,9 @@ from typing import List
 
 
 def parse_room_structure(rooms_description) -> List[str]:
+    # Sometimes missing or empty
+    if not rooms_description:
+        return []
     # Make all lowercase
     rooms_description = rooms_description.lower()
     # EXCEPTION: Some room numbers are separated like "2 h", this fixes that
