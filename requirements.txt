@@ -13,7 +13,7 @@ more-itertools==7.2.0
 nameko==2.12.0
 nameko-sentry==1.0.0
 path.py==12.0.1
-PyYAML==5.1.2
+PyYAML==5.4
 raven==6.10.0
 requests==2.22.0
 six==1.12.0
